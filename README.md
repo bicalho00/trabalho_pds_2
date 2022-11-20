@@ -5,7 +5,7 @@ USER_STORIES:
 1-Como gerente de contratos, gostaria de visualizar ou inserir uma determinada
 ordem de serviço (OS), para verificar as informações do contrato 
 firmado com o cliente, o engenheiro responsável, e registrar os serviços prestados.
-  *Critérios de aceitação*:
+  Critérios de aceitação:
     -Informar uma breve descrição.
     -Informar engenheiro responsável.
     -Informar o cliente final.

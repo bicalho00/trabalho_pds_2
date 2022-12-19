@@ -45,25 +45,7 @@ void Engenheiro::adicionarTarefa(OrdemServico* _ordemServico){
  */
 void Engenheiro::encerrarTarefa(int _numOrdem, std::string _dataEntrega){
 
-    bool encontrado;
     
-    if(!this->listaTarefas.empty()){
-        for(int i = 0; i < this->listaTarefas.size(); i++){            
-            if(this->listaTarefas.at(i)->getNumOrdem() == _numOrdem && !this->listaTarefas.at(i)->getStatus()){
-                this->listaTarefas.at(i)->setDataEntrega(_dataEntrega);
-                this->listaTarefas.at(i)->setEngenheiro("");
-                this->listaTarefas.erase(this->listaTarefas.begin() + i);
-                encontrado = true;
-            } else if(this->listaTarefas.at(i)->getNumOrdem() == _numOrdem && this->listaTarefas.at(i)->getStatus()){
-                throw AlreadyExecuted();
-            }
-        }
-    } else{
-        throw QueueEmptyException();
-    }
-
-    if(!encontrado)
-        throw ItemNotFoundException(); 
 };
 
 /*

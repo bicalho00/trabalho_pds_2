@@ -2,6 +2,8 @@
 #define ORCAMENTISTA_H
 
 #include "Funcionario.hpp"
+#include "Proposta.hpp"
+#include "Exceptions.hpp"
 
 /*
   Orçamentista é uma classe filha de funcionário, sendo responsável 

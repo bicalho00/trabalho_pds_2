@@ -59,3 +59,6 @@ forma a ter controle dos pagamentos recebidos.
     -Mostrar quantidade de contratos firmados com o cliente.
 
 
+O projeto tem como objetivo simular um sistema de gestão financeiro no qual é possível Realizar cadastros de propostas de serviços solicitadas por um cliente, Realizar cadastros de ordens de serviços, após concluir a negociação com
+o cliente. Neste caso, a proposta se torna uma nova ordem de serviço, Designar um engenheiro responsável para uma ordem de serviço,
+Permitir ao engenheiro visualizar as ordens de serviços a ele atribuídas, visualizar informações pessoais de seu perfil como funcionário, fechar uma ordem de serviço quando concluir um projeto, além de adicionar uma nova ordem de serviço para que ele possa trabalhar, Permitir ao contador da empresa validar o pagamento de uma ordem de serviço, visualizar todas as ordens cadastradas, bem como seus respectivos status de pagamento, alpem de verificar a receita, bruta e pendente da empresa, Permitir ao orçamentista armazenar as propostas feitas por ele, verificar suas informações de funcionário, além de visualizar suas propostas que foram vendidas, ou seja, tiveram a confirmação do cliente para início do projeto. Assim, também consegue visualizar o progresso da meta de vendas a ele atribuída. Da mesma forma, consegue visualizar propostas que ainda não se tornaram contratos. 

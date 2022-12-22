@@ -5,6 +5,8 @@
 #include <iomanip>
 #include <string>
 
+#include "Exceptions.hpp"
+
 /*
   Classe criada para reunir as características semelhantes das 
   classes Contadores, Orçamentistas e Engenheiros, de forma a implementar 

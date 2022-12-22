@@ -2,6 +2,8 @@
 #define CONTADOR_H
 
 #include "Funcionario.hpp"
+#include "Exceptions.hpp"
+#include "OrdemServico.hpp"
 
 class OrdemServico;
 

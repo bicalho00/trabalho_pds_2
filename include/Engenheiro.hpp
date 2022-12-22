@@ -2,6 +2,8 @@
 #define ENGENHEIRO_H
 
 #include "Funcionario.hpp"
+#include "OrdemServico.hpp"
+#include "Exceptions.hpp"
 
 class OrdemServico;
 

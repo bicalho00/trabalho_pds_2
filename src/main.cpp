@@ -1,6 +1,6 @@
 /**
  *  main
- *   Breno, Tofanelli e Gabriel
+ *
  *  1.0
  *
  *  DESCRIPTION
